@@ -11,4 +11,6 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/sqm/sharp_aquos_remote_control"
 
   s.files = Dir["lib/**/*", "LICENSE.txt", "README.md"]
+
+  s.add_development_dependency "rspec"
 end
