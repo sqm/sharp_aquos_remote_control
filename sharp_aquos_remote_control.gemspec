@@ -7,10 +7,10 @@ Gem::Specification.new do |s|
   s.email       = ["developers@squaremouth.com"]
   s.summary     = "Gem for adding Sharp Aquos Remote Control functionality with Ruby."
   s.description = "This gem enables remote control functionality for Sharp Aquos televisions."
-  s.license     = "MIT"
+  s.license     = "Nonstandard"
   s.homepage    = "https://github.com/sqm/sharp_aquos_remote_control"
 
   s.files = Dir["lib/**/*", "LICENSE.txt", "README.md"]
 
-  s.add_development_dependency "rspec"
+  s.add_development_dependency "rspec", '~> 3.3'
 end
